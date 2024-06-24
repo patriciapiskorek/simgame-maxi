@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/2.BNKqdY8G.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CX2WcZQD.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.j2G9yxdf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.BxHraPf7.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.B8DxKMHL.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.ArHpoE1o.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.x5zDBIgb.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.6tE-HUO5.js">
+	</head>
+
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="mobileMessage svelte-u629o9 mobileVisibility">Ihr Gerät oder Browserfenster ist zu klein, um das Spiel zu spielen. Bitte wählen sie ein größeres Gerät oder vergrößern Sie ihr Browserfenster.</div> <div class="ratio svelte-u629o9"> <img class="persona svelte-u629o9" src="" hidden> <div class="wrapper-interaction svelte-u629o9"> <img class="tasks-image svelte-u629o9" src="./Tasks/hg-task-1.jpg" draggable="false"> <p class="tasks-text svelte-u629o9">In der Küche fehlt natürlich noch ein Herd. Im Wohnzimmer ergänzen wir einen Sessel, falls das Paar mal Besuch bekommt.</p> <div class="tasklist svelte-u629o9"><div class="tasklistItem svelte-u629o9"><p class="svelte-u629o9">Aufgabe 1</p> <div class="taskCircle svelte-u629o9"><div class="taskCircleLeftHalf svelte-u629o9 hiddenVisibility" style="background-color: grey;"></div> <div class="taskCircleRightHalf svelte-u629o9 hiddenVisibility" style="background-color: grey;"></div></div> </div></div> <div id="dropzone1" class="dropzone svelte-u629o9 dropzoneStyle" ondragover="return false" style="left: 66%;
+					top: 38%;
+					rotate: 45deg;
+					width: 5vw;
+					height: 5vw;
+					"> </div><div id="dropzone2" class="dropzone svelte-u629o9 dropzoneStyle" ondragover="return false" style="left: 46.1%;
+					top: 73.2%;
+					rotate: 93deg;
+					width: 4vw;
+					height: 4vw;
+					"> </div> <div class="draggables svelte-u629o9"> <div id="draggable1" class="draggable svelte-u629o9" draggable="true"><img src="./Draggables/drag-sessel.png" class="svelte-u629o9"> </div> <div id="draggable2" class="draggable svelte-u629o9" draggable="true"><img src="./Draggables/drag-herd.png" class="svelte-u629o9"> </div></div> <div class="panic-bar-container svelte-u629o9" style="display: none;"><div class="panic-bar svelte-u629o9" style="width: 75%;"></div></div> <div class="pause-button svelte-u629o9" style="display: block;"><button class="svelte-u629o9" data-svelte-h="svelte-1h6rwv3">Pause</button></div> <div class="next-button svelte-u629o9" style="display: none;"><button class="svelte-u629o9" data-svelte-h="svelte-qfr61y">Next</button></div></div> <div class="wrapper-description svelte-u629o9"><p class="description svelte-u629o9">In der heutigen Vorlesung üben die Architekturstudierenden den Umgang mit einem CAD zur Erstellung von Grundrissen. Dafür fertigen sie Grundrisse nach den Anweisungen des Dozenten an. Auch Maxi tut sein Bestes, um alle Anforderungen umzusetzen. Können Sie Maxi behilflich sein?</p></div>  <div class="pause hiddenDisplay svelte-u629o9 fade-out"><div class="pauseContainer svelte-u629o9"><div class="slider svelte-u629o9"><div class="clickBlocker svelte-u629o9"></div> <div class="circle-outer svelte-u629o9  breathOut"><div class="circle-inner click-me-animation svelte-u629o9"></div></div></div></div></div>  <audio src="./Sounds/heartbeat.mp3" id="soundPlayerPanic" loop></audio> <audio src="./Sounds/breath-in.mp3" id="soundBreathIn" preload></audio> <audio src="./Sounds/breath-out.mp3" id="soundBreathOut" preload></audio> </div> 
+			
+			<script>
+				{
+					__sveltekit_ht4oca = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.CX2WcZQD.js"),
+						import("./_app/immutable/entry/app.B8DxKMHL.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+
+	<style>
+		body {
+			margin: 8px;
+		}
+	</style>
+</html>
